@@ -8,7 +8,7 @@ const Home = () => {
         <div className='flex justify-center items-center h-screen w-full'>
             <button 
                 className='rounded-lg text-[#FAFAFA] text-base font-normal py-2 px-4 bg-blue-400 '
-                onClick={()=>navigate("/Login")}
+                onClick={()=>navigate("/Admin Dashboard")}
             >Admin Dashboard</button>
         </div>
     </section>
